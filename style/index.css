@@ -1,0 +1,68 @@
+* {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+  font-family: "Kanit", sans-serif;
+  font-family: "Lato", sans-serif;
+  font-family: "Merriweather", serif;
+  font-family: "Poppins", sans-serif;
+  font-family: "Roboto", sans-serif;
+}
+body {
+  overflow-x: hidden;
+}
+.carousel-item img {
+  width: 100%;
+  height: 80vh;
+}
+
+h4 {
+  color: rgb(22, 61, 59);
+}
+h3,
+span {
+  font-family: "Dancing Script", cursive;
+  font-weight: bold;
+}
+#connectBtn {
+  text-decoration: none;
+  color: rgb(22, 61, 59);
+}
+form {
+  font-size: 20px;
+}
+#address {
+  font-size: 20px;
+}
+#addressp {
+  font-size: 17px;
+}
+iframe {
+  width: 500px;
+  height: 400px;
+}
+#addleft {
+  color: rgb(22, 61, 59);
+}
+#websiteicon {
+  font-size: 50px;
+  color: rgb(20, 134, 134);
+}
+#readmore:hover {
+  background-color: rgb(47, 170, 170);
+}
+#cardhover {
+  transition: transform 0.2s; /* Animation */
+}
+#cardhover:hover {
+  background-color: rgb(47, 170, 170);
+  transform: scale(
+    1.1
+  ); /* (150% zoom - Note: if the zoom is too large, it will go outside of the viewport) */
+}
+
+#cardmain {
+  color: rgb(22, 61, 59);
+  text-align: center;
+}
+
